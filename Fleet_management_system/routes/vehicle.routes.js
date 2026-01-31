@@ -1,7 +1,11 @@
-import express from"express";
-import { addVehicle, assignDriver, getVehicle } from "../controllers/vehicle.controller";
+import express from "express";
+import {
+  addVehicle,
+  assignDriver,
+  getVehicle,
+} from "../controllers/vehicle.controller";
 
-const router =express.Router();
+const router = express.Router();
 
 router.post("/add", addVehicle);
 router.patch("/assign-driver/:vehicleId", assignDriver);
