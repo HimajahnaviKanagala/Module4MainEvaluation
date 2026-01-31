@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 import userRoutes from "./routes/user.routes.js";
 import vechicleRoutes from "./routes/vehicle.routes.js";
-import tripRoutes from "./routes/trip.vehicle.js";
+import tripRoutes from "./routes/trip.routes.js";
 
 const app=express()
 app.use(express.json());
